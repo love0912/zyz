@@ -1,0 +1,15 @@
+
+/* Class = "UIViewController"; title = "消息"; ObjectID = "1cH-GZ-zOF"; */
+"1cH-GZ-zOF.title" = "消息";
+
+/* Class = "UINavigationItem"; title = "消息"; ObjectID = "3y4-Sh-Esi"; */
+"3y4-Sh-Esi.title" = "消息";
+
+/* Class = "UILabel"; text = "2016-06-27"; ObjectID = "Y2Q-LR-JGa"; */
+"Y2Q-LR-JGa.text" = "2016-06-27";
+
+/* Class = "UILabel"; text = "由于近期服务器升级，导致图片"; ObjectID = "bQm-UP-lIu"; */
+"bQm-UP-lIu.text" = "由于近期服务器升级，导致图片";
+
+/* Class = "UILabel"; text = "系统"; ObjectID = "wHA-Ei-8nq"; */
+"wHA-Ei-8nq.text" = "系统";

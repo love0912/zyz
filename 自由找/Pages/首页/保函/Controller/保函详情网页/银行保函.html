@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="css/details.css" />
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        //$(function(){
+        //    $("#details").click(function(){
+        //        $('#service').removeClass("seltitle");
+        //        $('#details').addClass("seltitle");
+        //        $(".details").show();
+        //        $(".service").hide();
+        //    });
+        //    $("#service").click(function() {
+        //        $('#details').removeClass("seltitle");
+        //        $('#service').addClass("seltitle");
+        //        $(".details").hide();
+        //        $(".service").show();
+        //    });
+        //})
+
+        $(function () {
+            //禁用右键菜单
+            $(document).on("contextmenu", function () {
+                return false;
+            });
+           // hidebutton();
+          
+        });
+
+        $(document).on("mousedown", function () { return false });
+        function hidebutton() {
+            $("#btn-view").hide();
+            $("#pricetitle").html("保函费率");
+        }
+
+        
+        function showprilist(pdata) {
+            if (typeof (pdata) !== "object") {
+                pdata = eval('(' + pdata + ")");
+            }
+            $("table#pricelist").html("");
+            $('<tr><th colspan="2" style="">价格列表</th></tr>').appendTo($("table#pricelist"));
+            //价格列表
+            for (var i = 0; i < pdata.length; i++) {
+                var item = pdata[i];
+                $('<tr>' +
+                    '<td style="width: 50%">' + item.title + '</td>' +
+                    '<td style="">' +
+                    item.price +
+                    '</td>' +
+                    '</tr>').appendTo($("table#pricelist"));
+
+            }
+        }
+
+        function showPrice() {
+            window.location.href = "jx://showPrice";
+        }
+
+        //$(function() {
+        //    showprilist([{ title: 'ad', price: '25' }]);
+        //});
+        function _showTab(tab) {
+            if (tab == 1) {
+                $('#service').removeClass("seltitle");
+                $('#details').addClass("seltitle");
+                $(".details").show();
+                $(".service").hide();
+            }
+            else {
+                $('#details').removeClass("seltitle");
+                $('#service').addClass("seltitle");
+                $(".details").hide();
+                $(".service").show();
+            }
+
+        }
+    
+    function showBigView() {
+        var urlString = document.getElementById("NormalUrl").src;
+        if (urlString.indexOf("http") == -1)
+        return;
+        window.location.href = "jx://showBigImage";
+    }
+    
+    function loadImage(id,src,callback)
+    {
+        var imgloader= new window.Image();
+        //当图片成功加载到浏览器缓存
+        imgloader.onload =function(evt)
+        {
+            if(typeof(imgloader.readyState)=='undefined')
+            {
+                imgloader.readyState = 'undefined';
+            }
+            //在IE8以及以下版本中需要判断readyState而不是complete
+            if ((imgloader.readyState=='complete'||imgloader.readyState=="loaded")||imgloader.complete)
+            {
+                //console.log('width='+imgloader.width+',height='+imageloader.height);//读取原始图片大小
+                callback({'msg':'ok','src':src,'id':id});
+            }else{
+                imgloader.onreadystatechange(evt);
+            }
+        };
+        
+        imgloader.onerror = function(evt)
+        {
+            callback({'msg':'error','id':id});
+        };
+        
+        imgloader.onreadystatechange = function(e)
+        {
+            //此方法只有IE8以及一下版本会调用
+        };
+        imgloader.src=src;
+    }
+    
+    var loadResult = function(data)
+    {
+        data =	data ||{} ;
+        if(typeof(data.msg)!='undefined')
+        {
+            if(data.msg=='ok')
+            {
+                //这里使用了id获取元素，有点死板，建议读者自行扩展为css 选择符
+                document.getElementById(''+data.id).src=data.src;
+                window.location.href = "jx://finishLoadImage";
+                
+            }else{
+                //这里图片加载失败，我们可以显示其他图片，防止大红叉
+                document.getElementById(''+data.id).src='img/jzsb.png';
+            }
+        }
+    }
+    
+    </script>
+    <title></title>
+    <style>
+        #top-list {
+            position: absolute;
+            position: fixed;
+            top: 40px;
+            left: 40px;
+            z-index: 100;
+            right: 40px;
+        }
+
+            #top-list table tr {
+                border-bottom: 1px solid #F4F4F4;
+            }
+
+        .mask {
+            display: none;
+        }
+
+        html, body {
+            -webkit-user-select: none;
+        }
+
+        .top-show {
+            position: absolute;
+            position: fixed;
+            left: 0;
+            top: 0px;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="mask" onclick="$('.mask').toggle()" style="position: absolute; position: fixed;left: 0px; right: 0px; top: 0px; bottom: 0px; background-color: rgba(0, 0, 0, 0.3);z-index: 99"></div>
+        <div class="mask" id="top-list">
+            <table id="pricelist"></table>
+        </div>
+        <div class="details">
+            <table>
+                <tr>
+                    <td>保函名称</td>
+                    <td>{{ name }}</td>
+                </tr>
+                <tr>
+                    <td style="color: #FF7B23"><span id="pricetitle">{{ PriceName }}表</span></td>
+                    <td style="color: #FF7B23">
+                        <span>{{ price }}</span>
+                        <!----onclick="$('.mask').toggle()"-->
+                        <div id="btn-view" onclick="showPrice()" style="display: inline-block; position: absolute; background-color: #ff6a00; right: 20px; border-radius: 5px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     padding: 2px; padding-left: 5px; padding-right: 5px; color: #ffffff; font-size: 1rem; font-weight: bold;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     cursor: pointer;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ">
+                            <span>点击查看</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>所需时间</td>
+                    <td>{{ description }}</td>
+                </tr>
+
+                <tr>
+                    <td>咨询电话</td>
+                    <td><span>{{ phone }}</span>
+                        <div id="call-phone" style="display: inline-block; position: absolute;  right: 20px; border-radius: 5px;
+                            padding: 2px; padding-left: 5px; padding-right: 5px; color: #ffffff; font-size: 1rem; font-weight: bold;
+                            cursor: pointer;
+                            ">
+                            <a href="jx://call"><img src="img/call2x.png" style="width: 2rem; max-width: 100%;" /></a>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>备&nbsp;&nbsp;注</td>
+                    <td>{{ remark }}</td>
+                </tr>
+            </table>
+
+            <table class="standard">
+                <thead>
+                <tr>
+                    <td colspan="2" style="color: #fd7419">
+                        保函格式说明
+                    </td>
+                </tr>
+                </thead>
+                <tr>
+                    <td colspan="2">
+                        您可以使用{{bank}}的标准保函格式，也可以上传您的保函格式，上传的格式需要银行进行审核。
+                    </td>
+
+                </tr>
+<!--                <tr>-->
+<!--                    <td colspan="2"  style='padding:0px;'>-->
+<!--                        <img id="NormalUrl" onclick="showBigView();" src="img/jzz.png" style="max-width: 100%; max-height: 100%; width: 100%"/>-->
+<!--                    </td>-->
+<!--                </tr>-->
+            </table>
+
+            <!--
+    交易流程
+    -->
+            <table class="Process">
+                <thead>
+                    <tr>
+                        <td colspan="2">
+                            服务流程
+                        </td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>
+                        <img src="img/jy1@2x.png" />
+                    </td>
+                    <td>
+                        <div class="Content">
+                            <h4>下单</h4>
+                            <p>买家下单后,自由找客服会在半个小时内与买家联系。</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/jy2@2x.png" /></td>
+                    <td>
+                        <div class="Content">
+                            <h4>上传资料</h4>
+                            <p>买家需在手机端或电脑端上传“营业执照”扫描件、“招标文件”或“投标保函格式”文件。</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/jy3@2x.png" /></td>
+                    <td>
+                        <div class="Content">
+                            <h4>结束</h4>
+                            <p>自由找客服按照投标文件的要求做好投标保函并邮寄给买家。</p>
+                        </div>
+                    </td>
+                </tr>
+
+
+
+            </table>
+        </div>
+    </div>
+
+
+</body>
+</html>

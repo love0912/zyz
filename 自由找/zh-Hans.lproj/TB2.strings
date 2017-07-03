@@ -1,0 +1,778 @@
+
+/* Class = "UIButton"; disabledTitle = "沟通完成"; ObjectID = "05q-5E-uyt"; */
+"05q-5E-uyt.disabledTitle" = "沟通完成";
+
+/* Class = "UIButton"; normalTitle = "等待沟通"; ObjectID = "05q-5E-uyt"; */
+"05q-5E-uyt.normalTitle" = "等待沟通";
+
+/* Class = "UILabel"; text = "中国建工"; ObjectID = "0Gy-OQ-Hqw"; */
+"0Gy-OQ-Hqw.text" = "中国建工";
+
+/* Class = "UILabel"; text = "已冻结金额(元)"; ObjectID = "0by-47-bOx"; */
+"0by-47-bOx.text" = "已冻结金额(元)";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "11T-kd-fh4"; */
+"11T-kd-fh4.normalTitle" = "保存";
+
+/* Class = "UIButton"; normalTitle = "电话"; ObjectID = "165-bG-jjz"; */
+"165-bG-jjz.normalTitle" = "电话";
+
+/* Class = "UITextField"; placeholder = "请输入充值金额"; ObjectID = "1A2-JU-gG9"; */
+"1A2-JU-gG9.placeholder" = "请输入充值金额";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "1ts-LH-vPo"; */
+"1ts-LH-vPo.text" = "Title";
+
+/* Class = "UILabel"; text = "+100"; ObjectID = "20E-Hv-TD9"; */
+"20E-Hv-TD9.text" = "+100";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2Ji-V5-K65"; */
+"2Ji-V5-K65.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "2sK-ww-dS2"; */
+"2sK-ww-dS2.normalTitle" = "确定";
+
+/* Class = "UILabel"; text = "建新北路 房屋建筑"; ObjectID = "3KO-A5-26S"; */
+"3KO-A5-26S.text" = "建新北路 房屋建筑";
+
+/* Class = "UILabel"; text = "已撤回"; ObjectID = "3yV-Ut-uqn"; */
+"3yV-Ut-uqn.text" = "已撤回";
+
+/* Class = "UINavigationItem"; title = "使用帮助"; ObjectID = "4IQ-fV-oB0"; */
+"4IQ-fV-oB0.title" = "使用帮助";
+
+/* Class = "UILabel"; text = "第100号项目"; ObjectID = "4go-rG-i8o"; */
+"4go-rG-i8o.text" = "第100号项目";
+
+/* Class = "UIButton"; normalTitle = "导出报名企业"; ObjectID = "4i3-vt-G8i"; */
+"4i3-vt-G8i.normalTitle" = "导出报名企业";
+
+/* Class = "UILabel"; text = "重庆自由找有限公司 Copyright © 2016"; ObjectID = "4i7-c1-9Bb"; */
+"4i7-c1-9Bb.text" = "重庆自由找有限公司 Copyright © 2016";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "51s-Z7-gdt"; */
+"51s-Z7-gdt.text" = "Title";
+
+/* Class = "UILabel"; text = "19"; ObjectID = "52R-7c-d30"; */
+"52R-7c-d30.text" = "19";
+
+/* Class = "UIButton"; normalTitle = "添加项目"; ObjectID = "5BA-yR-Nsw"; */
+"5BA-yR-Nsw.normalTitle" = "添加项目";
+
+/* Class = "UILabel"; text = "温馨提示:请上传手持身份证正反面照片，请勿涂鸦剪裁保证身份信息清晰显示，否则不能通过审核。"; ObjectID = "5CF-8i-COV"; */
+"5CF-8i-COV.text" = "温馨提示:请上传手持身份证正反面照片，请勿涂鸦剪裁保证身份信息清晰显示，否则不能通过审核。";
+
+/* Class = "UILabel"; text = "企业名称"; ObjectID = "64Z-XC-p7U"; */
+"64Z-XC-p7U.text" = "企业名称";
+
+/* Class = "UILabel"; text = "搜索到："; ObjectID = "6Ed-ng-Zho"; */
+"6Ed-ng-Zho.text" = "搜索到：";
+
+/* Class = "UIButton"; normalTitle = "《自由找用户协议》"; ObjectID = "6Zk-cH-TAw"; */
+"6Zk-cH-TAw.normalTitle" = "《自由找用户协议》";
+
+/* Class = "UINavigationItem"; title = "我的发布"; ObjectID = "8Bu-Tq-NPd"; */
+"8Bu-Tq-NPd.title" = "我的发布";
+
+/* Class = "UILabel"; text = "客服邮箱"; ObjectID = "8kb-Aw-69f"; */
+"8kb-Aw-69f.text" = "客服邮箱";
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "9E6-VL-lzv"; */
+"9E6-VL-lzv.normalTitle" = "删除";
+
+/* Class = "UINavigationItem"; title = "上传企业信息"; ObjectID = "9NQ-HK-LXW"; */
+"9NQ-HK-LXW.title" = "上传企业信息";
+
+/* Class = "UILabel"; text = "kf@ziyouzhao.com"; ObjectID = "9Sv-dC-yw5"; */
+"9Sv-dC-yw5.text" = "kf@ziyouzhao.com";
+
+/* Class = "UILabel"; text = "您还没有收到优惠券哦~"; ObjectID = "AIR-1R-TOH"; */
+"AIR-1R-TOH.text" = "您还没有收到优惠券哦~";
+
+/* Class = "UILabel"; text = "12360"; ObjectID = "AUK-sF-0uG"; */
+"AUK-sF-0uG.text" = "12360";
+
+/* Class = "UINavigationItem"; title = "查看详情"; ObjectID = "AfH-sp-tuT"; */
+"AfH-sp-tuT.title" = "查看详情";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "AjN-FA-mgS"; */
+"AjN-FA-mgS.normalTitle" = "提交";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Aqb-zp-151"; */
+"Aqb-zp-151.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "Ar7-Qd-bWX"; */
+"Ar7-Qd-bWX.normalTitle" = "获取验证码";
+
+/* Class = "UILabel"; text = "重庆市"; ObjectID = "Ayp-kk-ask"; */
+"Ayp-kk-ask.text" = "重庆市";
+
+/* Class = "UINavigationItem"; title = "请选择联系人"; ObjectID = "B0V-6M-M8b"; */
+"B0V-6M-M8b.title" = "请选择联系人";
+
+/* Class = "UINavigationItem"; title = "增加项目"; ObjectID = "B14-xy-0EV"; */
+"B14-xy-0EV.title" = "增加项目";
+
+/* Class = "UINavigationItem"; title = "添加企业"; ObjectID = "BOX-ks-gnG"; */
+"BOX-ks-gnG.title" = "添加企业";
+
+/* Class = "UILabel"; text = "个人概述"; ObjectID = "BYb-eJ-klB"; */
+"BYb-eJ-klB.text" = "个人概述";
+
+/* Class = "UINavigationItem"; title = "导出"; ObjectID = "BpP-Ry-vUf"; */
+"BpP-Ry-vUf.title" = "导出";
+
+/* Class = "UITextField"; placeholder = "输入您的手机号码"; ObjectID = "Bwu-Zh-VaU"; */
+"Bwu-Zh-VaU.placeholder" = "输入您的手机号码";
+
+/* Class = "UIViewController"; title = "所在企业"; ObjectID = "CXB-FW-sBf"; */
+"CXB-FW-sBf.title" = "所在企业";
+
+/* Class = "UINavigationItem"; title = "我的报名"; ObjectID = "CvK-Aq-tN5"; */
+"CvK-Aq-tN5.title" = "我的报名";
+
+/* Class = "UILabel"; text = "请上传手持身份证照"; ObjectID = "D5J-ag-MX5"; */
+"D5J-ag-MX5.text" = "请上传手持身份证照";
+
+/* Class = "UILabel"; text = "服务电话"; ObjectID = "DDx-Q4-Lx4"; */
+"DDx-Q4-Lx4.text" = "服务电话";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "DQ9-Bx-Pxa"; */
+"DQ9-Bx-Pxa.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "19"; ObjectID = "DZy-Sv-6L0"; */
+"DZy-Sv-6L0.text" = "19";
+
+/* Class = "UILabel"; text = "累积消费（个）"; ObjectID = "Db0-oI-eeD"; */
+"Db0-oI-eeD.text" = "累积消费（个）";
+
+/* Class = "UIButton"; normalTitle = "查看补遗"; ObjectID = "DfD-dK-aHj"; */
+"DfD-dK-aHj.normalTitle" = "查看补遗";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ECG-aJ-BcE"; */
+"ECG-aJ-BcE.text" = "Title";
+
+/* Class = "UILabel"; text = "当前没有任何资质内容，赶快来添加吧"; ObjectID = "EMg-lX-iT2"; */
+"EMg-lX-iT2.text" = "当前没有任何资质内容，赶快来添加吧";
+
+/* Class = "UINavigationItem"; title = "所在企业"; ObjectID = "EfZ-RQ-vHz"; */
+"EfZ-RQ-vHz.title" = "所在企业";
+
+/* Class = "UINavigationItem"; title = "找回密码"; ObjectID = "Ei9-WB-sOB"; */
+"Ei9-WB-sOB.title" = "找回密码";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "F5j-lO-FMv"; */
+"F5j-lO-FMv.text" = "Title";
+
+/* Class = "UILabel"; text = "金额"; ObjectID = "FCV-W8-93i"; */
+"FCV-W8-93i.text" = "金额";
+
+/* Class = "UINavigationItem"; title = "输入内容，选择联系人"; ObjectID = "FLI-5x-KwR"; */
+"FLI-5x-KwR.title" = "输入内容，选择联系人";
+
+/* Class = "UIButton"; normalTitle = "房建"; ObjectID = "FME-8y-kwi"; */
+"FME-8y-kwi.normalTitle" = "房建";
+
+/* Class = "UILabel"; text = "（首次下单立即送1000元优惠券）"; ObjectID = "FV8-hk-V77"; */
+"FV8-hk-V77.text" = "（首次下单立即送1000元优惠券）";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "G8v-4j-Z5M"; */
+"G8v-4j-Z5M.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "补遗内容"; ObjectID = "GOJ-1w-Gb1"; */
+"GOJ-1w-Gb1.title" = "补遗内容";
+
+/* Class = "UIButton"; disabledTitle = "已评价"; ObjectID = "Gch-YX-zX0"; */
+"Gch-YX-zX0.disabledTitle" = "已评价";
+
+/* Class = "UIButton"; normalTitle = "评价"; ObjectID = "Gch-YX-zX0"; */
+"Gch-YX-zX0.normalTitle" = "评价";
+
+/* Class = "UILabel"; text = "企业名称"; ObjectID = "GlE-Yl-fOC"; */
+"GlE-Yl-fOC.text" = "企业名称";
+
+/* Class = "UILabel"; text = "在这里输入您的简述信息"; ObjectID = "Gw7-CD-4sa"; */
+"Gw7-CD-4sa.text" = "在这里输入您的简述信息";
+
+/* Class = "UINavigationItem"; title = "编辑资料"; ObjectID = "HfR-WK-UQE"; */
+"HfR-WK-UQE.title" = "编辑资料";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Hpb-uj-DuP"; */
+"Hpb-uj-DuP.text" = "0";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "I5k-eK-dEJ"; */
+"I5k-eK-dEJ.text" = "Detail";
+
+/* Class = "UITextField"; placeholder = "请设置6-12位数密码"; ObjectID = "IAM-XC-Rgy"; */
+"IAM-XC-Rgy.placeholder" = "请设置6-12位数密码";
+
+/* Class = "UILabel"; text = "2016-06-20"; ObjectID = "IMQ-FV-WHa"; */
+"IMQ-FV-WHa.text" = "2016-06-20";
+
+/* Class = "UILabel"; text = "1.2.2"; ObjectID = "IYs-0e-nuh"; */
+"IYs-0e-nuh.text" = "1.2.2";
+
+/* Class = "UINavigationItem"; title = "选择支付方式"; ObjectID = "IyO-ye-BbQ"; */
+"IyO-ye-BbQ.title" = "选择支付方式";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "IyR-ze-WFL"; */
+"IyR-ze-WFL.text" = "Title";
+
+/* Class = "UILabel"; text = "需求编号：3041  交稿时间：2016-06-30"; ObjectID = "J5Z-pp-Y7W"; */
+
+/* Class = "UILabel"; text = "当前没有报名项目，请前往投标合作报名！"; ObjectID = "J5e-aZ-CZr"; */
+"J5e-aZ-CZr.text" = "当前没有报名项目，请前往投标合作报名！";
+
+/* Class = "UINavigationItem"; title = "我要认证"; ObjectID = "JFT-kJ-VxL"; */
+"JFT-kJ-VxL.title" = "我要认证";
+
+/* Class = "UIButton"; normalTitle = "搜索"; ObjectID = "JWf-NL-vLx"; */
+"JWf-NL-vLx.normalTitle" = "搜索";
+
+/* Class = "UIButton"; normalTitle = "不同意"; ObjectID = "Jer-eS-FHV"; */
+"Jer-eS-FHV.normalTitle" = "不同意";
+
+/* Class = "UILabel"; text = "重庆自由找网络科技有限公司"; ObjectID = "Jgb-cf-Auu"; */
+"Jgb-cf-Auu.text" = "重庆自由找网络科技有限公司";
+
+/* Class = "UILabel"; text = "我的发布"; ObjectID = "Jk0-re-pEJ"; */
+"Jk0-re-pEJ.text" = "我的发布";
+
+/* Class = "UILabel"; text = "2655878242"; ObjectID = "JpX-2v-zV8"; */
+"JpX-2v-zV8.text" = "2655878242";
+
+/* Class = "UIButton"; normalTitle = "返回登录"; ObjectID = "K0N-0l-bA3"; */
+"K0N-0l-bA3.normalTitle" = "返回登录";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "KBY-uG-Bcv"; */
+"KBY-uG-Bcv.text" = "Title";
+
+/* Class = "UILabel"; text = "联系邮箱"; ObjectID = "KEO-zl-V3i"; */
+"KEO-zl-V3i.text" = "联系邮箱";
+
+/* Class = "UILabel"; text = "退撤回(0)"; ObjectID = "Kpq-0i-Z5b"; */
+"Kpq-0i-Z5b.text" = "退撤回(0)";
+
+/* Class = "UILabel"; text = "2016-12-12"; ObjectID = "KqA-Ih-Xn3"; */
+"KqA-Ih-Xn3.text" = "2016-12-12";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "LPS-Lf-cg8"; */
+"LPS-Lf-cg8.text" = "Detail";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "LXc-ft-glQ"; */
+"LXc-ft-glQ.placeholder" = "请输入验证码";
+
+/* Class = "UILabel"; text = "1234"; ObjectID = "LdA-pS-jyF"; */
+"LdA-pS-jyF.text" = "1234";
+
+/* Class = "UINavigationItem"; title = "增加客户"; ObjectID = "MAY-d9-PxL"; */
+"MAY-d9-PxL.title" = "增加客户";
+
+/* Class = "UILabel"; text = "请选择"; ObjectID = "Mdn-7B-dMo"; */
+"Mdn-7B-dMo.text" = "请选择";
+
+/* Class = "UITextField"; placeholder = "请输入邀请码（选填）"; ObjectID = "MnK-Yh-pxw"; */
+"MnK-Yh-pxw.placeholder" = "请输入邀请码（选填）";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NK8-Of-rJC"; */
+"NK8-Of-rJC.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "账户充值"; ObjectID = "NQn-Gy-2fK"; */
+"NQn-Gy-2fK.title" = "账户充值";
+
+/* Class = "UINavigationItem"; title = "自由找钱包"; ObjectID = "NZL-lS-7W6"; */
+"NZL-lS-7W6.title" = "自由找钱包";
+
+/* Class = "UIButton"; normalTitle = "退回"; ObjectID = "Nrp-OR-pyQ"; */
+"Nrp-OR-pyQ.normalTitle" = "退回";
+
+/* Class = "UILabel"; text = "点击右上角“添加企业”完成企业信息添加。"; ObjectID = "NzM-Hb-Vjb"; */
+"NzM-Hb-Vjb.text" = "点击右上角“添加企业”完成企业信息添加。";
+
+/* Class = "UILabel"; text = "您的建议"; ObjectID = "Oah-GH-keO"; */
+"Oah-GH-keO.text" = "您的建议";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Oia-Su-IPc"; */
+"Oia-Su-IPc.text" = "Detail";
+
+/* Class = "UILabel"; text = "确认密码"; ObjectID = "PDy-5f-VnQ"; */
+"PDy-5f-VnQ.text" = "确认密码";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Pzf-ic-meD"; */
+"Pzf-ic-meD.text" = "Detail";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "QCs-MX-UJj"; */
+"QCs-MX-UJj.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "QDF-Kj-Yc7"; */
+"QDF-Kj-Yc7.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "提交反馈"; ObjectID = "QDz-9I-BPW"; */
+"QDz-9I-BPW.normalTitle" = "提交反馈";
+
+/* Class = "UINavigationItem"; title = "项目详情"; ObjectID = "QbH-uh-VmY"; */
+"QbH-uh-VmY.title" = "项目详情";
+
+/* Class = "UIButton"; normalTitle = "编辑"; ObjectID = "Qde-m3-BGQ"; */
+"Qde-m3-BGQ.normalTitle" = "编辑";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Qt9-Pg-0R8"; */
+"Qt9-Pg-0R8.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "R04-f2-fQW"; */
+"R04-f2-fQW.text" = "Label";
+
+/* Class = "UILabel"; text = "至"; ObjectID = "Ra7-ki-JwG"; */
+"Ra7-ki-JwG.text" = "至";
+
+/* Class = "UINavigationItem"; title = "我的"; ObjectID = "Rbg-nG-k2G"; */
+"Rbg-nG-k2G.title" = "我的";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "S1r-8p-qrX"; */
+"S1r-8p-qrX.placeholder" = "请输入验证码";
+
+/* Class = "UINavigationItem"; title = "客户管理"; ObjectID = "S6M-uQ-31p"; */
+"S6M-uQ-31p.title" = "客户管理";
+
+/* Class = "UINavigationItem"; title = "关于我们"; ObjectID = "S8v-vV-xW5"; */
+"S8v-vV-xW5.title" = "关于我们";
+
+/* Class = "UILabel"; text = "重庆自由找有限公司 Copyright © 2016"; ObjectID = "SJt-zf-TU0"; */
+"SJt-zf-TU0.text" = "重庆自由找有限公司 Copyright © 2016";
+
+/* Class = "UILabel"; text = "400-021-3618"; ObjectID = "SLY-2B-wfW"; */
+"SLY-2B-wfW.text" = "400-021-3618";
+
+/* Class = "UINavigationItem"; title = "工作简历"; ObjectID = "SeJ-yg-Ybg"; */
+"SeJ-yg-Ybg.title" = "工作简历";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Sok-QA-rJw"; */
+"Sok-QA-rJw.text" = "Detail";
+
+/* Class = "UINavigationItem"; title = "意见反馈"; ObjectID = "SzU-Jk-YSs"; */
+"SzU-Jk-YSs.title" = "意见反馈";
+
+/* Class = "UIButton"; normalTitle = "查看报名企业"; ObjectID = "TKI-xG-MhJ"; */
+"TKI-xG-MhJ.normalTitle" = "查看报名企业";
+
+/* Class = "UILabel"; text = "￥1000"; ObjectID = "TmS-k0-Ol3"; */
+"TmS-k0-Ol3.text" = "￥1000";
+
+/* Class = "UILabel"; text = "4680"; ObjectID = "TuH-2C-V0y"; */
+"TuH-2C-V0y.text" = "4680";
+
+/* Class = "UITextField"; placeholder = "请输入您的姓名"; ObjectID = "U3N-bX-ffT"; */
+"U3N-bX-ffT.placeholder" = "请输入您的姓名";
+
+/* Class = "UILabel"; text = "已阅读并同意"; ObjectID = "U83-jd-Jsm"; */
+"U83-jd-Jsm.text" = "已阅读并同意";
+
+/* Class = "UIButton"; normalTitle = "上传图片"; ObjectID = "UHZ-7J-txP"; */
+"UHZ-7J-txP.normalTitle" = "上传图片";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "UHb-qD-Xjj"; */
+"UHb-qD-Xjj.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "选择号码"; ObjectID = "UTy-BY-kwR"; */
+"UTy-BY-kwR.title" = "选择号码";
+
+/* Class = "UILabel"; text = "身份证反面示例图"; ObjectID = "Uj1-BW-mz4"; */
+"Uj1-BW-mz4.text" = "身份证反面示例图";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "UyV-4K-RJ4"; */
+"UyV-4K-RJ4.text" = "Detail";
+
+/* Class = "UILabel"; text = "企业名称"; ObjectID = "V9n-rl-mXY"; */
+"V9n-rl-mXY.text" = "企业名称";
+
+/* Class = "UILabel"; text = "我的累计积分"; ObjectID = "VGx-PH-73o"; */
+"VGx-PH-73o.text" = "我的累计积分";
+
+/* Class = "UIButton"; normalTitle = "编辑"; ObjectID = "W0h-3s-m9T"; */
+"W0h-3s-m9T.normalTitle" = "编辑";
+
+/* Class = "UINavigationItem"; title = "请选择企业"; ObjectID = "W3N-gd-K9V"; */
+"W3N-gd-K9V.title" = "请选择企业";
+
+/* Class = "UILabel"; text = "500/500"; ObjectID = "WrH-rG-waA"; */
+"WrH-rG-waA.text" = "500/500";
+
+/* Class = "UILabel"; text = "客服QQ"; ObjectID = "XGd-WI-5gS"; */
+"XGd-WI-5gS.text" = "客服QQ";
+
+/* Class = "UIButton"; normalTitle = "立即注册"; ObjectID = "XMi-nu-jjH"; */
+"XMi-nu-jjH.normalTitle" = "立即注册";
+
+/* Class = "UILabel"; text = "需求编码：3041    交稿时间：2016-06-30"; ObjectID = "Xje-e9-2ba"; */
+
+/* Class = "UILabel"; text = "头像"; ObjectID = "Xr5-ds-n3f"; */
+"Xr5-ds-n3f.text" = "头像";
+
+/* Class = "UINavigationItem"; title = "我的收藏"; ObjectID = "Y9A-eb-cLa"; */
+"Y9A-eb-cLa.title" = "我的收藏";
+
+/* Class = "UITextField"; placeholder = "请输入您的联系邮箱"; ObjectID = "YaF-pT-fnQ"; */
+"YaF-pT-fnQ.placeholder" = "请输入您的联系邮箱";
+
+/* Class = "UIButton"; normalTitle = "完成"; ObjectID = "Ytf-bd-xAM"; */
+"Ytf-bd-xAM.normalTitle" = "完成";
+
+/* Class = "UIButton"; normalTitle = "添加资质"; ObjectID = "YxY-RR-Qeh"; */
+"YxY-RR-Qeh.normalTitle" = "添加资质";
+
+/* Class = "UILabel"; text = "￥1000"; ObjectID = "ZFE-Dc-3Cg"; */
+"ZFE-Dc-3Cg.text" = "￥1000";
+
+/* Class = "UILabel"; text = "忘记密码"; ObjectID = "ZeD-G0-4Wx"; */
+"ZeD-G0-4Wx.text" = "忘记密码";
+
+/* Class = "UILabel"; text = "中国建工"; ObjectID = "aOG-sz-xTT"; */
+"aOG-sz-xTT.text" = "中国建工";
+
+/* Class = "UINavigationItem"; title = "收支详情"; ObjectID = "aXT-15-vxs"; */
+"aXT-15-vxs.title" = "收支详情";
+
+/* Class = "UILabel"; text = "1.2.2"; ObjectID = "ao5-bk-ape"; */
+"ao5-bk-ape.text" = "1.2.2";
+
+/* Class = "UITextField"; placeholder = "请设置6-12位数密码"; ObjectID = "bew-vv-wtN"; */
+"bew-vv-wtN.placeholder" = "请设置6-12位数密码";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "bgX-JI-H0p"; */
+"bgX-JI-H0p.text" = "Detail";
+
+/* Class = "UILabel"; text = "重庆云纳科技有限公司"; ObjectID = "bgs-bk-i3m"; */
+"bgs-bk-i3m.text" = "重庆云纳科技有限公司";
+
+/* Class = "UINavigationItem"; title = "积分明细"; ObjectID = "cwv-NM-bOC"; */
+"cwv-NM-bOC.title" = "积分明细";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "d5b-ko-PqN"; */
+"d5b-ko-PqN.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "当前没发布项目，请前往投标合作发布！"; ObjectID = "dNb-OY-VFp"; */
+"dNb-OY-VFp.text" = "当前没发布项目，请前往投标合作发布！";
+
+/* Class = "UILabel"; text = "联系人：姚先生"; ObjectID = "dQ6-L7-Z8f"; */
+"dQ6-L7-Z8f.text" = "联系人：姚先生";
+
+/* Class = "UILabel"; text = "自由找"; ObjectID = "dSX-83-8ed"; */
+"dSX-83-8ed.text" = "自由找";
+
+/* Class = "UILabel"; text = "为你搜索到50家企业"; ObjectID = "dXE-Kf-ta3"; */
+"dXE-Kf-ta3.text" = "为你搜索到50家企业";
+
+/* Class = "UINavigationItem"; title = "企业资质"; ObjectID = "dYL-vP-0am"; */
+"dYL-vP-0am.title" = "企业资质";
+
+/* Class = "UINavigationItem"; title = "帮助详情"; ObjectID = "djx-nf-oKu"; */
+"djx-nf-oKu.title" = "帮助详情";
+
+/* Class = "UITextField"; placeholder = "请输入您的手机号码"; ObjectID = "eIJ-8D-ADB"; */
+"eIJ-8D-ADB.placeholder" = "请输入您的手机号码";
+
+/* Class = "UINavigationItem"; title = "选择擅长领域"; ObjectID = "eL3-CO-gEl"; */
+"eL3-CO-gEl.title" = "选择擅长领域";
+
+/* Class = "UILabel"; text = "身份证正面示例图"; ObjectID = "eNE-t5-t0X"; */
+"eNE-t5-t0X.text" = "身份证正面示例图";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "ePQ-Mm-IJd"; */
+"ePQ-Mm-IJd.text" = "Detail";
+
+/* Class = "UIButton"; normalTitle = "提交申请"; ObjectID = "eVt-TG-9L7"; */
+"eVt-TG-9L7.normalTitle" = "提交申请";
+
+/* Class = "UILabel"; text = "客户管理"; ObjectID = "ebl-Hg-QWR"; */
+"ebl-Hg-QWR.text" = "客户管理";
+
+/* Class = "UILabel"; text = "最新(0)"; ObjectID = "egv-BH-h8J"; */
+"egv-BH-h8J.text" = "最新(0)";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ekJ-6v-Ms4"; */
+"ekJ-6v-Ms4.text" = "Title";
+
+/* Class = "UILabel"; text = "如企业信息有误，可以更正信息，第一次更改信息时，需进行身份认证，认证后，您将作为该企业的联系人进行展示。"; ObjectID = "eqN-fX-IDd"; */
+"eqN-fX-IDd.text" = "如企业信息有误，可以更正信息，第一次更改信息时，需进行身份认证，认证后，您将作为该企业的联系人进行展示。";
+
+/* Class = "UILabel"; text = "女"; ObjectID = "fJi-Xg-Hdp"; */
+"fJi-Xg-Hdp.text" = "女";
+
+/* Class = "UILabel"; text = "当前没有任何企业，点击下方按钮添加"; ObjectID = "fVz-HH-Sp1"; */
+"fVz-HH-Sp1.text" = "当前没有任何企业，点击下方按钮添加";
+
+/* Class = "UILabel"; text = "在线支付项目"; ObjectID = "fnI-uB-0fH"; */
+"fnI-uB-0fH.text" = "在线支付项目";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "fpX-Ls-C7Q"; */
+"fpX-Ls-C7Q.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "资质合作"; ObjectID = "fxw-pQ-1FN"; */
+"fxw-pQ-1FN.text" = "资质合作";
+
+/* Class = "UINavigationItem"; title = "报名企业列表"; ObjectID = "gBW-EB-YHU"; */
+"gBW-EB-YHU.title" = "报名企业列表";
+
+/* Class = "UILabel"; text = "v2.1.0"; ObjectID = "gDR-y2-oRs"; */
+"gDR-y2-oRs.text" = "v2.1.0";
+
+/* Class = "UIButton"; normalTitle = "新用户注册"; ObjectID = "gNf-Zt-Gxa"; */
+"gNf-Zt-Gxa.normalTitle" = "新用户注册";
+
+/* Class = "UINavigationItem"; title = "系统设置"; ObjectID = "gO0-GP-zdL"; */
+"gO0-GP-zdL.title" = "系统设置";
+
+/* Class = "UINavigationItem"; title = "企业详情"; ObjectID = "goH-kl-u1y"; */
+"goH-kl-u1y.title" = "企业详情";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hLU-0t-gFS"; */
+"hLU-0t-gFS.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "合作企业搜索"; ObjectID = "hbx-Og-SpJ"; */
+"hbx-Og-SpJ.title" = "合作企业搜索";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "hup-Nb-6Fn"; */
+"hup-Nb-6Fn.normalTitle" = "获取验证码";
+
+/* Class = "UILabel"; text = "小提示："; ObjectID = "hwI-hZ-cZX"; */
+"hwI-hZ-cZX.text" = "小提示：";
+
+/* Class = "UILabel"; text = "当前没有任何企业，点击下方按钮添加"; ObjectID = "iIL-QP-XmP"; */
+"iIL-QP-XmP.text" = "当前没有任何企业，点击下方按钮添加";
+
+/* Class = "UINavigationItem"; title = "我的接单"; ObjectID = "ic8-3d-5sf"; */
+"ic8-3d-5sf.title" = "我的接单";
+
+/* Class = "UILabel"; text = "工作时间"; ObjectID = "j3o-78-VpN"; */
+"j3o-78-VpN.text" = "工作时间";
+
+/* Class = "UILabel"; text = "联系发布者"; ObjectID = "jn1-E2-HiC"; */
+"jn1-E2-HiC.text" = "联系发布者";
+
+/* Class = "UIButton"; normalTitle = "编辑"; ObjectID = "jtq-uo-Ctg"; */
+"jtq-uo-Ctg.normalTitle" = "编辑";
+
+/* Class = "UILabel"; text = "支付密码"; ObjectID = "kIO-Ya-lOb"; */
+"kIO-Ya-lOb.text" = "钱包密码";
+
+/* Class = "UIButton"; normalTitle = "房建"; ObjectID = "kJf-vN-kBa"; */
+"kJf-vN-kBa.normalTitle" = "房建";
+
+/* Class = "UILabel"; text = "自由找"; ObjectID = "lBW-6Z-UIK"; */
+"lBW-6Z-UIK.text" = "自由找";
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "lIZ-9p-aJq"; */
+"lIZ-9p-aJq.normalTitle" = "删除";
+
+/* Class = "UILabel"; text = "您还没有添加所在企业哦～"; ObjectID = "ltH-8Z-SYr"; */
+"ltH-8Z-SYr.text" = "您还没有添加所在企业哦～";
+
+/* Class = "UILabel"; text = "建新北路 房屋建筑建新北路 房屋建筑"; ObjectID = "lwN-CC-tE3"; */
+"lwN-CC-tE3.text" = "建新北路 房屋建筑建新北路 房屋建筑";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "mBa-6u-Oug"; */
+"mBa-6u-Oug.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "mbA-li-xzm"; */
+"mbA-li-xzm.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "输入六位数字支付密码"; ObjectID = "mru-Mw-WBa"; */
+"mru-Mw-WBa.placeholder" = "输入六位数字钱包密码";
+
+/* Class = "UITextField"; placeholder = "请输入手机号码/账号"; ObjectID = "msn-vV-QvQ"; */
+"msn-vV-QvQ.placeholder" = "请输入手机号码/账号";
+
+/* Class = "UITextField"; placeholder = "输入您的密码"; ObjectID = "n0z-B5-yCn"; */
+"n0z-B5-yCn.placeholder" = "输入您的密码";
+
+/* Class = "UILabel"; text = "不同意(0)"; ObjectID = "n7R-x1-hQS"; */
+"n7R-x1-hQS.text" = "不同意(0)";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "nGt-1y-Imx"; */
+"nGt-1y-Imx.text" = "Title";
+
+/* Class = "UILabel"; text = "请选择"; ObjectID = "niK-2d-6B5"; */
+"niK-2d-6B5.text" = "请选择";
+
+/* Class = "UILabel"; text = "微信公众号"; ObjectID = "niw-PH-k5V"; */
+"niw-PH-k5V.text" = "微信公众号";
+
+/* Class = "UILabel"; text = "我的报名"; ObjectID = "o3u-lz-YBi"; */
+"o3u-lz-YBi.text" = "我的报名";
+
+/* Class = "UIButton"; normalTitle = "《自由找钱包使用协议》"; ObjectID = "oRn-uJ-UpH"; */
+"oRn-uJ-UpH.normalTitle" = "《自由找钱包使用协议》";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "oTH-xs-KYP"; */
+"oTH-xs-KYP.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "oc1-WF-Maw"; */
+"oc1-WF-Maw.text" = "Detail";
+
+/* Class = "UILabel"; text = "可提现金额(元)"; ObjectID = "oiO-n7-Dud"; */
+"oiO-n7-Dud.text" = "可提现金额(元)";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "omm-Xn-2KS"; */
+"omm-Xn-2KS.text" = "0";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "otW-k8-2au"; */
+"otW-k8-2au.text" = "Title";
+
+/* Class = "UILabel"; text = "手机号码"; ObjectID = "oxk-MF-Lyp"; */
+"oxk-MF-Lyp.text" = "手机号码";
+
+/* Class = "UIButton"; normalTitle = "撤回"; ObjectID = "pPZ-Wp-roW"; */
+"pPZ-Wp-roW.normalTitle" = "撤回";
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "pcd-iw-xtR"; */
+"pcd-iw-xtR.normalTitle" = "删除";
+
+/* Class = "UILabel"; text = "500~1000元"; ObjectID = "q4M-a9-wZb"; */
+"q4M-a9-wZb.text" = "500~1000元";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "qV3-tS-lPe"; */
+"qV3-tS-lPe.normalTitle" = "保存";
+
+/* Class = "UINavigationItem"; title = "优惠券"; ObjectID = "qxJ-U3-Y5v"; */
+"qxJ-U3-Y5v.title" = "优惠券";
+
+/* Class = "UILabel"; text = "重庆市"; ObjectID = "qxM-SL-rrv"; */
+"qxM-SL-rrv.text" = "重庆市";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "r31-g8-0sb"; */
+"r31-g8-0sb.text" = "Detail";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "r8f-fg-ad6"; */
+"r8f-fg-ad6.text" = "8";
+
+/* Class = "UILabel"; text = "自由找"; ObjectID = "rIa-c1-R3V"; */
+"rIa-c1-R3V.text" = "自由找";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "rge-FQ-zTZ"; */
+"rge-FQ-zTZ.placeholder" = "请输入验证码";
+
+/* Class = "UINavigationItem"; title = "用户注册"; ObjectID = "sI7-Px-uDf"; */
+"sI7-Px-uDf.title" = "用户注册";
+
+/* Class = "UILabel"; text = "男"; ObjectID = "sIg-7t-0fQ"; */
+"sIg-7t-0fQ.text" = "男";
+
+/* Class = "UINavigationItem"; title = "我要认证"; ObjectID = "scP-A0-ngy"; */
+"scP-A0-ngy.title" = "我要认证";
+
+/* Class = "UILabel"; text = "营业执照或企业名片"; ObjectID = "soQ-9a-R2e"; */
+"soQ-9a-R2e.text" = "营业执照或企业名片";
+
+/* Class = "UINavigationItem"; title = "选择项目"; ObjectID = "svz-aa-Zpa"; */
+"svz-aa-Zpa.title" = "选择项目";
+
+/* Class = "UILabel"; text = "诚信得分:：90"; ObjectID = "sxv-G3-0ac"; */
+"sxv-G3-0ac.text" = "诚信得分:：90";
+
+/* Class = "UINavigationItem"; title = "搜索结果"; ObjectID = "t4R-Bg-kGv"; */
+"t4R-Bg-kGv.title" = "搜索结果";
+
+/* Class = "UINavigationItem"; title = "我的积分"; ObjectID = "tBd-KZ-l7S"; */
+"tBd-KZ-l7S.title" = "我的积分";
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "tTP-jQ-XbP"; */
+"tTP-jQ-XbP.normalTitle" = "删除";
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "tbu-yW-BTE"; */
+"tbu-yW-BTE.normalTitle" = "删除";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "tcT-H9-Vdu"; */
+"tcT-H9-Vdu.normalTitle" = "获取验证码";
+
+/* Class = "UIButton"; normalTitle = "联系发布者"; ObjectID = "tjI-Gh-H7s"; */
+"tjI-Gh-H7s.normalTitle" = "联系发布者";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "tmN-dN-Czq"; */
+"tmN-dN-Czq.text" = "Detail";
+
+/* Class = "UILabel"; text = "ziyouzhao168"; ObjectID = "u1y-zg-E2e"; */
+"u1y-zg-E2e.text" = "ziyouzhao168";
+
+/* Class = "UIButton"; normalTitle = "同意"; ObjectID = "u6g-7p-ll7"; */
+"u6g-7p-ll7.normalTitle" = "同意";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "uB1-oT-3vi"; */
+"uB1-oT-3vi.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "我的积分"; ObjectID = "uPL-AE-hId"; */
+"uPL-AE-hId.text" = "我的积分";
+
+/* Class = "UITextField"; placeholder = "重新输入您的支付密码"; ObjectID = "uuk-IL-2g8"; */
+"uuk-IL-2g8.placeholder" = "重新输入您的钱包密码";
+
+/* Class = "UILabel"; text = "重庆自由找网络科技有限公司"; ObjectID = "uuy-tX-Gz1"; */
+"uuy-tX-Gz1.text" = "重庆自由找网络科技有限公司";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "v0N-eb-gHZ"; */
+"v0N-eb-gHZ.text" = "Title";
+
+/* Class = "UIButton"; disabledTitle = "已评价"; ObjectID = "vAx-vv-oRK"; */
+"vAx-vv-oRK.disabledTitle" = "已评价";
+
+/* Class = "UIButton"; normalTitle = "评价"; ObjectID = "vAx-vv-oRK"; */
+"vAx-vv-oRK.normalTitle" = "评价";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vQT-LC-vnW"; */
+"vQT-LC-vnW.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "请输入您的手机号码"; ObjectID = "vTh-ew-dPn"; */
+"vTh-ew-dPn.placeholder" = "请输入您的手机号码";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "vZe-d7-muL"; */
+"vZe-d7-muL.text" = "Title";
+
+/* Class = "UILabel"; text = "重庆自由找有限公司"; ObjectID = "vdM-47-E6d"; */
+"vdM-47-E6d.text" = "重庆自由找有限公司";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "vgs-Pc-lGX"; */
+"vgs-Pc-lGX.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "补遗通知"; ObjectID = "vkN-57-hUt"; */
+"vkN-57-hUt.title" = "补遗通知";
+
+/* Class = "UILabel"; text = "重庆云纳科技有限公司"; ObjectID = "vnd-0v-8Or"; */
+"vnd-0v-8Or.text" = "重庆云纳科技有限公司";
+
+/* Class = "UINavigationItem"; title = "客服中心"; ObjectID = "wPN-nJ-lFq"; */
+"wPN-nJ-lFq.title" = "客服中心";
+
+/* Class = "UILabel"; text = "分割线"; ObjectID = "wmb-Np-E44"; */
+"wmb-Np-E44.text" = "分割线";
+
+/* Class = "UINavigationItem"; title = "企业详情"; ObjectID = "wnH-zu-OLL"; */
+"wnH-zu-OLL.title" = "企业详情";
+
+/* Class = "UILabel"; text = "已阅读并同意"; ObjectID = "xCR-Da-WoF"; */
+"xCR-Da-WoF.text" = "已阅读并同意";
+
+/* Class = "UILabel"; text = "同意(0)"; ObjectID = "xQN-TI-k3K"; */
+"xQN-TI-k3K.text" = "同意(0)";
+
+/* Class = "UILabel"; text = "上传营业执照（副本加盖鲜章）或企业名片（加盖鲜章）"; ObjectID = "xYh-Lz-Fzk"; */
+"xYh-Lz-Fzk.text" = "上传营业执照（副本加盖鲜章）或企业名片（加盖鲜章）";
+
+/* Class = "UILabel"; text = "请输入你要发送的内容"; ObjectID = "yHP-Nf-E1P"; */
+"yHP-Nf-E1P.text" = "请输入你要发送的内容";
+
+/* Class = "UINavigationItem"; title = "收支明细"; ObjectID = "yK5-Ph-ame"; */
+"yK5-Ph-ame.title" = "收支明细";
+
+/* Class = "UINavigationItem"; title = "设置支付密码"; ObjectID = "ydQ-aV-PxO"; */
+"ydQ-aV-PxO.title" = "设置钱包密码";
+
+/* Class = "UILabel"; text = "在这里输入您的宝贵建议或者意见，500字以内"; ObjectID = "z4L-PA-gly"; */
+"z4L-PA-gly.text" = "在这里输入您的宝贵建议或者意见，500字以内";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "zCf-WL-Gxx"; */
+"zCf-WL-Gxx.text" = "Title";
+
+/* Class = "UILabel"; text = "性别"; ObjectID = "zct-mY-bA9"; */
+"zct-mY-bA9.text" = "性别";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "zsY-ww-Sep"; */
+"zsY-ww-Sep.text" = "Title";

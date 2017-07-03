@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ced492d9-bd9e-41cb-bea8-f0eae1a28427++2021",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "ced492d9-bd9e-41cb-bea8-f0eae1a28427++2021" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ced492d9-bd9e-41cb-bea8-f0eae1a28427++2021" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A0ED2851-61B9-48D2-A5E2-8375647097F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ced492d9-bd9e-41cb-bea8-f0eae1a28427++2021" : "iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "自由找",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "自由找\/自由找.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/ZYZMkt",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ced492d9-bd9e-41cb-bea8-f0eae1a28427++2021"
+    }
+  ]
+}

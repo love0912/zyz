@@ -1,0 +1,278 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+* {
+  padding: 0rem;
+  -webkit-margin: 0rem;
+  margin: 0rem;
+  font-weight: normal; }
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 100%;
+  font-family: "微软雅黑";
+  background-color: #f4f4f4;
+  width: 100%;
+  min-height: 100%; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+@media only all and (min-width: 100px) and (max-width: 374px) {
+  html, body {
+    font-size: 90%; } }
+div.btntitle {
+  width: 100%;
+  height: 3rem;
+  background: #FFFFFF;
+  color: #999999;
+  cursor: pointer;
+  position: absolute;
+  position: fixed;
+  z-index: 100;
+  top: 0px; }
+
+div.btntitle div {
+  width: 50%;
+  text-align: center;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  line-height: 3rem; }
+
+div.btntitle > div {
+  border-bottom: 2px solid #f4f4f4; }
+
+div.btntitle div.seltitle {
+  color: #ff7b23;
+  border-bottom: 2px solid #FF7B23; }
+.details, .service {
+  margin-top: 0.2rem; }
+.model_Forcast>.details, .model_Forcast>.service {
+  margin-top: 3.8rem; }
+
+table {
+  position: relative;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 0.75rem; }
+
+table tr {
+  line-height: 2rem;
+  font-size: 1rem;
+  height: 3em; }
+
+table tr td:nth-child(1) {
+  color: #999999;
+  min-width: 4.5rem;
+  padding-left: 1rem;
+  width: 6rem; }
+
+table tr td:nth-last-child(1) {
+  color: #333333;
+  border-bottom: 1px solid #F4F4F4; }
+
+thead tr th h4, thead tr th h5 {
+  color: #999999;
+  font-size: 1.1rem;
+  text-align: left;
+  font-weight: normal;
+  padding-top: 0.625rem;
+  padding-left: 1rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: normal; }
+
+thead tr th h5 {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 1rem; }
+
+table tr:last-child td:nth-last-child(1), table tr td.notunderline {
+  border-bottom: none; }
+
+table thead + tbody tr td:nth-last-child(1) div {
+  background-color: #F4F4F4;
+  margin: 0.5rem;
+  padding: 1rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem; }
+
+div.Content > h4, div.Content > p, td > p {
+  padding: 0px;
+  margin: 0px; }
+
+div.Content > p {
+  font-size: 0.75rem; }
+
+div.Content {
+  position: relative; }
+
+div.Content:before {
+  width: 0rem;
+  display: block;
+  position: absolute;
+  height: 0rem;
+  content: '';
+  padding: 0px;
+  border-top: 1.5rem #F4F4F4 solid;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -moz-transform: rotate(90deg);
+  /* Firefox */
+  -webkit-transform: rotate(90deg);
+  /* Safari 和 Chrome */
+  transform: rotate(90deg);
+  margin-left: -2.5rem;
+  top: 2rem; }
+
+table.Process tr td {
+  border: none; }
+
+table.Process tr td:first-child img {
+  width: 3.438rem; }
+
+td.counter {
+  counter-reset: zyzcounter 0; }
+
+td.counter p {
+  line-height: 1.75rem;
+  padding: 0.5rem 0rem;
+  margin-left: 2.5rem; }
+
+td.counter p:before {
+  content: counter(zyzcounter);
+  counter-increment: zyzcounter;
+  display: inline-block;
+  border: 0.1rem solid #FF7B23;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 1.75rem;
+  height: 1.75rem;
+  text-align: center;
+  margin-right: 1rem;
+  color: #FF7B23;
+  position: absolute;
+  margin-left: -2.5rem; }
+
+@media only all and (min-width: 100px) and (max-width: 320px) {
+  td.counter p {
+    font-size: 0.8rem; }
+
+  thead tr th h4, thead tr th h5 {
+    font-size: 1rem; }
+
+  thead tr th h5 {
+    font-size: 0.9rem; }
+
+  td.counter p {
+    line-height: 1.5rem;
+    padding: 0.4rem 0rem; }
+
+  td.counter p:before {
+    display: inline-block;
+    border: 0.125rem solid #FF7B23;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem; } }
+#page2 .hot {
+  color: #ff7b23; }
+#page2 table thead tr th h4 {
+  border-radius: 4px;
+  border: 0.15rem solid gray;
+  line-height: 1.2rem;
+  display: inline-block;
+  float: left;
+  box-sizing: content-box;
+  margin-left: 1rem;
+  padding-bottom: 0.625rem;
+  padding-right: 1rem;
+  margin-top: 0.750em;
+  margin-bottom: 0.75rem; }
+#page2 table:first-child h4 {
+  color: #56b5ff;
+  border: 0.1rem solid #56b5ff; }
+#page2 table:nth-child(2) h4 {
+  color: #5ddfa6;
+  border: 0.1rem solid #5ddfa6; }
+#page2 table:nth-child(3) h4 {
+  color: #5660ed;
+  border: 0.1rem solid #5660ed; }
+#page2 table:nth-child(4) h4 {
+  color: #973ef1;
+  border: 0.1rem solid #973ef1; }
+
+.proj-group {
+  background: #ffffff; }
+  .proj-group .heading {
+    color: #ff2423; }
+  .proj-group .hot {
+    color: #ff7d20; }
+  .proj-group .sub-heading {
+    color: #ff7c24; }
+  .proj-group table {
+    background: #fbfbfb;
+    margin-bottom: 0rem; }
+  .proj-group .group-select {
+    min-width: 20rem;
+    width: 90%;
+    max: 40rem;
+    margin: 0rem auto;
+    margin-bottom: 1rem;
+    color: #999999; }
+    .proj-group .group-select .group-select-item, .proj-group .group-select .group-select-hotitem {
+      text-align: center;
+      float: left;
+      height: 3rem;
+      font-size: 0.9rem;
+      line-height: 3rem;
+      width: 50%;
+      position: relative;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      margin: 0 auto;
+      margin: 0.4rem auto;
+      padding-left: 1rem;
+      letter-spacing: 0.125rem / 2; }
+      .proj-group .group-select .group-select-item span, .proj-group .group-select .group-select-hotitem span {
+        display: inline-block;
+        height: 1rem;
+        width: 0.125rem;
+        margin: 0 0.25rem;
+        background: #dddddd;
+        position: relative;
+        top: 0.2rem; }
+      .proj-group .group-select .group-select-item:after, .proj-group .group-select .group-select-hotitem:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        display: inline-block;
+        position: absolute;
+        border: 1px solid #999999;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-radius: 0.4rem;
+        transform: scale(0.9); }
+    .proj-group .group-select .group-select-hotitem {
+      color: red; }
+      .proj-group .group-select .group-select-hotitem span {
+        background: #ff7c24; }
+      .proj-group .group-select .group-select-hotitem:after {
+        border: 1px solid #ff7c24; }
+
+ 
+#page2{
+	display:none;
+}

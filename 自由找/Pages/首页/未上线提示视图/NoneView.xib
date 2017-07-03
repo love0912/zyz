@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NoneView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QSd-as-JkT">
+                    <rect key="frame" x="20" y="138" width="335" height="390"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="None_top2" translatesAutoresizingMaskIntoConstraints="NO" id="J0f-HA-xjC">
+                            <rect key="frame" x="0.0" y="0.0" width="335" height="130"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="J0f-HA-xjC" secondAttribute="height" multiplier="67:26" id="09M-HF-HTO"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="编制技术标" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyu-Bz-eHf">
+                            <rect key="frame" x="110" y="42" width="115" height="28"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="简介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ju6-nR-7A7">
+                            <rect key="frame" x="15" y="145" width="32" height="19.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etp-fK-kz4">
+                            <rect key="frame" x="15" y="180" width="305" height="15.5"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUr-Jl-oBs">
+                            <rect key="frame" x="43" y="320" width="250" height="40"/>
+                            <state key="normal" title="知道了" backgroundImage="None_Btn">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn_konw_pressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="sUJ-SH-3gN"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qk-pv-2bw">
+                            <rect key="frame" x="43" y="320" width="90" height="40"/>
+                            <state key="normal" title="不感兴趣" backgroundImage="None_Btn1">
+                                <color key="titleColor" red="1" green="0.4823529411764706" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btn_disagree_pressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Bdw-7p-cPn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFX-4m-KWS">
+                            <rect key="frame" x="203" y="320" width="90" height="40"/>
+                            <state key="normal" title="感兴趣" backgroundImage="None_Btn2">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btn_agree_pressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="WEt-4d-wwS"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFa-Em-nBL">
+                            <rect key="frame" x="15" y="203" width="88" height="12"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <state key="normal" title="  400-021-3618" image="bank_call">
+                                <color key="titleColor" red="1" green="0.47843137250000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btn_phone_pressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="vi5-RS-ZQQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="390" id="19W-es-mio"/>
+                        <constraint firstItem="etp-fK-kz4" firstAttribute="top" secondItem="ju6-nR-7A7" secondAttribute="bottom" constant="15.5" id="38M-UO-ons"/>
+                        <constraint firstAttribute="bottom" secondItem="8qk-pv-2bw" secondAttribute="bottom" constant="30" id="391-aM-CJB"/>
+                        <constraint firstItem="ju6-nR-7A7" firstAttribute="leading" secondItem="QSd-as-JkT" secondAttribute="leading" constant="15" id="7Qb-yn-wAt"/>
+                        <constraint firstItem="J0f-HA-xjC" firstAttribute="top" secondItem="QSd-as-JkT" secondAttribute="top" id="99d-Tr-JOg"/>
+                        <constraint firstItem="ju6-nR-7A7" firstAttribute="top" secondItem="J0f-HA-xjC" secondAttribute="bottom" constant="15" id="AcQ-KS-MdS"/>
+                        <constraint firstItem="J0f-HA-xjC" firstAttribute="leading" secondItem="QSd-as-JkT" secondAttribute="leading" id="PNH-Gt-qgt"/>
+                        <constraint firstItem="gUr-Jl-oBs" firstAttribute="centerX" secondItem="QSd-as-JkT" secondAttribute="centerX" id="VQe-8e-eTo"/>
+                        <constraint firstItem="TFa-Em-nBL" firstAttribute="top" secondItem="etp-fK-kz4" secondAttribute="bottom" constant="7.5" id="XTZ-3b-TUU"/>
+                        <constraint firstItem="lyu-Bz-eHf" firstAttribute="centerX" secondItem="QSd-as-JkT" secondAttribute="centerX" id="Z4L-U3-sfn"/>
+                        <constraint firstItem="TFa-Em-nBL" firstAttribute="leading" secondItem="QSd-as-JkT" secondAttribute="leading" constant="15" id="eeU-ou-nVQ"/>
+                        <constraint firstItem="etp-fK-kz4" firstAttribute="leading" secondItem="QSd-as-JkT" secondAttribute="leading" constant="15" id="fFp-vZ-08o"/>
+                        <constraint firstAttribute="bottom" secondItem="YFX-4m-KWS" secondAttribute="bottom" constant="30" id="ifR-Om-MiM"/>
+                        <constraint firstItem="8qk-pv-2bw" firstAttribute="leading" secondItem="QSd-as-JkT" secondAttribute="leading" constant="43" id="o39-cH-DXE"/>
+                        <constraint firstAttribute="trailing" secondItem="J0f-HA-xjC" secondAttribute="trailing" id="uSI-T8-Nog"/>
+                        <constraint firstAttribute="bottom" secondItem="gUr-Jl-oBs" secondAttribute="bottom" constant="30" id="ubE-Uy-Ec8"/>
+                        <constraint firstItem="lyu-Bz-eHf" firstAttribute="top" secondItem="QSd-as-JkT" secondAttribute="top" constant="42" id="wBA-Li-BXw"/>
+                        <constraint firstAttribute="trailing" secondItem="YFX-4m-KWS" secondAttribute="trailing" constant="42" id="x2m-9q-57n"/>
+                        <constraint firstAttribute="trailing" secondItem="etp-fK-kz4" secondAttribute="trailing" constant="15" id="zU4-qn-k3G"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="QSd-as-JkT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="7pM-W3-z8D"/>
+                <constraint firstItem="QSd-as-JkT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Na2-UU-MVM"/>
+                <constraint firstAttribute="trailing" secondItem="QSd-as-JkT" secondAttribute="trailing" constant="20" id="aga-KR-Mfj"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="btn_agree" destination="YFX-4m-KWS" id="ySS-BL-4I5"/>
+                <outlet property="btn_disagree" destination="8qk-pv-2bw" id="IGn-sm-bXO"/>
+                <outlet property="btn_know" destination="gUr-Jl-oBs" id="SOL-AW-zxX"/>
+                <outlet property="btn_phone" destination="TFa-Em-nBL" id="BwS-6I-ttg"/>
+                <outlet property="iv_background" destination="J0f-HA-xjC" id="s7H-dz-Slu"/>
+                <outlet property="layout_btnknowToBottom" destination="ubE-Uy-Ec8" id="ROx-bi-akB"/>
+                <outlet property="lb_content" destination="etp-fK-kz4" id="3T1-AP-Bb3"/>
+                <outlet property="lb_title" destination="lyu-Bz-eHf" id="5ix-ff-Doh"/>
+                <outlet property="v_content" destination="QSd-as-JkT" id="tEx-Ll-Ppr"/>
+            </connections>
+            <point key="canvasLocation" x="237.5" y="302.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="None_Btn" width="250" height="40"/>
+        <image name="None_Btn1" width="90" height="40"/>
+        <image name="None_Btn2" width="90" height="40"/>
+        <image name="None_top2" width="335" height="138"/>
+        <image name="bank_call" width="11" height="11"/>
+    </resources>
+</document>

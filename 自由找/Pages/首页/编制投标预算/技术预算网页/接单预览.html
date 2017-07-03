@@ -1,0 +1,294 @@
+﻿
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/details.css" />
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+         
+
+            $("#details").click(function () {
+                $('#service').removeClass("seltitle");
+                $('#details').addClass("seltitle");
+                $(".details").show();
+                $(".service").hide();
+            });
+            $("#service").click(function () {
+                $('#details').removeClass("seltitle");
+                $('#service').addClass("seltitle");
+                $(".details").hide();
+                $(".service").show();
+            });
+            //$(".group-select-item:first").addClass("group-select-hotitem");
+            //$(".proj-group>table:first").show();
+        });
+        function showforcast() {//投标预算是调用此函数显示标签
+            $(".btntitle").show();
+            $("#cont").addClass("model_Forcast");
+            $("#st").hide();
+        }
+
+        function initdata(items) {
+            items = decodeURI(items);
+            if (typeof items!=="object") {
+                items = eval("" + items + "");
+            }
+            var str1 = "";
+            var str2 = '<div id="pgroup" class="group-select clearfix">';
+            for (var i = 0; i < items.length; i++) {
+                var item = items[i];
+                str1 += '<table style="' + (i === 0 ? "" : 'display: none;') + '">         ' +
+                    ' <thead>' +
+                    '     <tr>                                                      ' +
+                    '           <td colspan="2" class="heading">                    ' +
+                    '               ' + item.SubTitle + '                                  ' +
+                    '           </td>                                               ' +
+                    '       </tr>                                                   ' +
+                    '   </thead>                                                    ' +
+                    '   <tr>                                                        ' +
+                    '       <td>价格</td>                                           ' +
+                    '       <td>' + item.Price + '元/份</td>         ' +
+                    '   </tr>                                                       ' +
+                    '   <tr>                                                        ' +
+                    '       <td>质量要求</td>                                       ' +
+                    '       <td>' + item.QualityType + '</td>                              ' +
+                    '   </tr>                                                       ' +
+                    '                                                               ' +
+                    '   <tr>                                                        ' +
+                    '       <td>保证金</td>                                         ' +
+                    '       <td>' + item.Deposit + '元/份</td>       ' +
+                    '    </tr>                                                      ' +
+                    '    <tr>                                                       ' +
+                    '        <td>交稿时间</td>                                      ' +
+                    '        <td class="hot">' + item.DeliveryDt + '</td>                  ' +
+                    '    </tr>                                                      ' +
+                    '    <tr>                                                       ' +
+                    '        <td>交稿邮箱</td>                                      ' +
+                    '        <td class="hot">' + item.Email + '</td>                       ' +
+                    '    </tr>                                                      ' +
+                    '    <tr>                                                       ' +
+                    '        <td>其他要求</td>                                      ' +
+                    '        <td class="hot">' + item.Remark + '</td>                      ' +
+                    '    </tr>                                                      ' +
+                    '                                                               ' +
+                    '</table>                                                       ';
+                str2 += '<div class="group-select-item ' + (i === 0 ? " group-select-hotitem" : "") + '" data-item="' + i + '">' +
+                        item.Title+'<span></span>'+item.Price+"元/份</div>";
+                
+
+                
+            }
+            str2 += "</div>";
+            $("#proj-group").html(str1 + str2);
+            $(".group-select-item").bind("click", function (e) {
+                var $this = $(this);
+                if ($this.hasClass("group-select-hotitem")) return;
+                $(".proj-group>table").hide();
+
+                $(".group-select-hotitem").removeClass("group-select-hotitem");
+                var key = $this.attr("data-item");
+                $(".proj-group>table").eq(key).show();
+                $(this).addClass("group-select-hotitem");
+
+            });
+        }
+    </script>
+    <title></title>
+</head>
+
+<body>
+    <div class="" id="cont">
+        <!--@if (Model.Type == ZYZ.V3.Outsourcing.Domain.Model.ProductType.Forcast)
+        {-->
+
+        <div class="btntitle" style="display:none">
+            <!----投标预算 -->
+            <div id="details" class="seltitle">详情</div>
+            <div id="service">验收标准</div>
+        </div>
+        <!--}-->
+
+
+
+        <div class="details">
+            <table>
+                <tr>
+                    <td>标题</td>
+                    <td>{{ProjectTitle}}</td>
+                </tr>
+                <tr>
+                    <td>项目名称</td>
+                    <td>{{ProjectName}}</td>
+                </tr>
+
+                <tr>
+                    <td>项目编号</td>
+                    <td>{{ProjectCode}}</td>
+                </tr>
+                <tr>
+                    <td>项目类别</td>
+                    <td>{{ProjectType}}</td>
+                </tr>
+                <tr>
+                    <td>项目区域</td>
+                    <td>{{ProjectRegion}}</td>
+                </tr>
+            </table>
+            <table>
+
+                <tr>
+                    <td>
+                        <p>项目资料</p>下载地址
+                    </td>
+                    <td>{{ProjectMaterial}}</td>
+                </tr>
+                <tr>
+                    <td style="">
+                        <p>项目资料</p>&nbsp;提取码
+                    </td>
+                    <td>{{MaterialAccessCode}}</td>
+                </tr>
+
+                <tr>
+                    <td>客服电话</td>
+                    <td>{{Phone}}</td>
+                </tr>
+            </table>
+
+            <div id="proj-group" class="proj-group">
+                 
+            </div>
+
+
+            <table id="st" class="standard">
+                <thead>
+                    <tr>
+                        <th colspan="2" class='notunderline'>
+                            <h4>技术标验收标准</h4>
+                            <h5>我们主要按照招标文件的主题要求验收，着重检查以下几项</h5>
+                        </th>
+                    </tr>
+
+                </thead>
+                <tr>
+                    <td colspan="2" class="counter">
+
+                        <p>是否满足招标文件规定的评审标准；</p>
+                        <p>是否满足招标文件规定的技术部分的内容组成要求；</p>
+                        <p>是否满足招标文件对技术标的格式要求。</p>
+                        <p>是否满足购买者提出的要求。</p>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div id="page2" class="service">
+            <table class="standard">
+                <thead>
+                    <tr>
+                        <th colspan="2" class='notunderline'>
+                            <h4>投标标准组价</h4>
+
+                        </th>
+                    </tr>
+
+                </thead>
+                <tr>
+                    <td colspan="2" class="counter">
+
+                        <p>清单套取完整。</p>
+                        <p>未删减清单数量。</p>
+                        <p>措施费导入完整及套取完整。</p>
+                        <p>材料已经按信息价及市场价调整。</p>
+                    </td>
+                </tr>
+
+            </table>
+            <table class="standard">
+                <thead>
+                    <tr>
+                        <th colspan="2" class='notunderline'>
+                            <h4>投标分析组价</h4>
+
+                        </th>
+                    </tr>
+
+                </thead>
+                <tr>
+                    <td colspan="2" class="counter">
+
+                        <p>清单组件完整，并套取符合清单及定额的计价标准</p>
+                        <p>未删减清单数量。</p>
+                        <p>措施费导入完整及套取完整，并提出措施的分析要点。</p>
+                        <p>材料已经按信息价调整。</p>
+                        <p class="hot">根据后期工程量可能增减清单，并提供详细的组价说明(重要项)!</p>
+                    </td>
+                </tr>
+
+            </table>
+            <table class="standard">
+                <thead>
+                    <tr>
+                        <th colspan="2" class='notunderline'>
+                            <h4>投标成本分析</h4>
+
+                        </th>
+                    </tr>
+
+                </thead>
+                <tr>
+                    <td colspan="2" class="counter">
+
+                        <p>清单组件完整，并套取符合清单及定额的计价标准</p>
+                        <p>未删减清单数量。</p>
+                        <p>措施费导入完整及套取完整，并提出措施的分析要点。</p>
+                        <p>材料已经按信息价调整。</p>
+                        <p>根据图纸及工程量清单准确的进行组价</p>
+                        <p class="hot">分析后期工程量可能增减清单，并提供详细的组价说明(重要项)!</p>
+                        <p>根据清单提供的工程量进行工程直接费成本的分析说明，形成正式文件</p>
+                        <p>结合市场单价与定额计价比较，分析出项目利润率</p>
+                    </td>
+                </tr>
+
+            </table>
+
+            <table class="standard">
+                <thead>
+                    <tr>
+                        <th colspan="2" class='notunderline'>
+                            <h4>实施成本分析</h4>
+
+                        </th>
+                    </tr>
+
+                </thead>
+                <tr>
+                    <td colspan="2" class="counter">
+
+                        <p>清单组件完整，并套取符合清单及定额的计价标准</p>
+                        <p>未删减清单数量。</p>
+                        <p>措施费导入完整及套取完整，并提出措施的分析要点。</p>
+                        <p>材料已经按信息价调整。</p>
+                        <p>根据图纸及工程量清单准确的进行组价</p>
+                        <p class="hot">分析后期工程量可能增减清单，并提供详细的组价说明(重要项)!</p>
+                        <p>根据图纸核对清单数量，并对清单中的漏缺项进行详细的清理，并按实际工程量提供的工程准确的施工成本，及整个工程的预算成本。</p>
+                        <p>施工成本预算与预算成本比较，分析出项目利润率，并提出建议报价策略</p>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+    </div>
+</body>
+
+</html>

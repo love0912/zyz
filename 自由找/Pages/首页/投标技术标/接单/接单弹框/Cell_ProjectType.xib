@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell_ProjectType" id="gTV-IL-0wX" customClass="Cell_ProjectType">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="37"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="164" height="37"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ckt-bj-wHG">
+                        <rect key="frame" x="5.5" y="5" width="153" height="28"/>
+                        <state key="normal" title="类型一 | 200/份" backgroundImage="Bounced_bt2">
+                            <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="selected" backgroundImage="Bounced_bt1">
+                            <color key="titleColor" red="1" green="0.47843137254901957" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ckt-bj-wHG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5.5" id="6IP-xt-IJ3"/>
+                <constraint firstItem="Ckt-bj-wHG" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Y1c-lp-z5J"/>
+                <constraint firstItem="Ckt-bj-wHG" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="isF-KX-NsO"/>
+                <constraint firstAttribute="trailing" secondItem="Ckt-bj-wHG" secondAttribute="trailing" constant="5.5" id="snh-cZ-rPu"/>
+            </constraints>
+            <size key="customSize" width="164" height="37"/>
+            <connections>
+                <outlet property="btn_type" destination="Ckt-bj-wHG" id="wyQ-kL-Ccf"/>
+            </connections>
+            <point key="canvasLocation" x="260" y="282.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Bounced_bt1" width="153" height="28"/>
+        <image name="Bounced_bt2" width="153" height="28"/>
+    </resources>
+</document>

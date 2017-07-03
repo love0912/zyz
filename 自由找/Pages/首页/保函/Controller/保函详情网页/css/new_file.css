@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.8em;
+    font-family: "微软雅黑";
+    line-height: 2em;
+    font-size: 14px;
+    background-color: #f4f4f4;
+}
+
+
+table {
+    position: relative;
+    /*margin: 1em 0em;*/
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+  table span {
+        vertical-align: middle;
+    }
+
+
+.tw {
+    width: 5em;
+    color: #999999;
+    padding: 0.8em 1em;
+    line-height: 1em;
+    min-width: 4em;
+}
+
+.tk {
+    padding: 0.8em 1em 0.8em 0.1em;
+    font-size: 1em;
+    line-height: 1em;
+    vertical-align: top;
+    word-break: break-all;
+    border-bottom: #e8e8e8 0.5px solid;
+    border-bottom: rgba(232,232,232,0.9) 1px solid;
+    position: relative;
+}
+
+    .tk.Aptitudes span {
+        line-height: 1.5em;
+        font-size: 1em;
+        text-align: left;
+        vertical-align: middle;
+        padding: 0.5em 0em;
+    }
+
+    .tk img {
+        border-width: 0px;
+        width: 30%;
+        height: 30%;
+        margin: 1em 1.6%;
+    }
+
+
+
+
+div.justify {
+    text-align: justify;
+}
+
+    div.justify > span {
+        display: inline-block /* Opera */;
+        padding-left: 100%;
+    }
+
+    div.justify > p {
+        text-align: center;
+        margin-left: -1em;
+        color: #666666;
+    }
+
+
+
+tr.err {
+    border-bottom: none;
+}
+
+
+
+
+
+
+.credit div {
+    padding: 0.5em 1em;
+    display: inline-block;
+    padding-left:0em;
+}
+
+ .credit div:nth-child(2n):after {
+        content: "";
+        white-space: pre;
+    }
+
+.tk img {
+    border-width: 0px;
+    width: 2em;
+    height: 2em;
+    margin: 1em 1.6%;
+    padding: 0px;
+    position: absolute;
+    right: 3em;
+    top: 0.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ 
+span.rz {
+    background: url("/Resource/images/rengzheng.png");
+    width: 5em;
+    height: 1.5em;
+    position: relative;
+    display: inline-block;
+    line-height: 1.5em;
+    margin-left:0.3em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+tbody tr:last-child td:last-child {
+  border-bottom:none
+
+}
+.texttitle {
+ vertical-align:middle;
+}
+
+@media only screen and (max-width: 320px) {
+    .tw {
+        width: 4em;
+    }
+   .tk img {
+     right:1.5em;
+    }
+
+    div.justify > p {
+        text-align: center;
+        margin-left: 0em;
+        color: #666666;
+    }
+}

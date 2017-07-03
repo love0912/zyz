@@ -1,0 +1,276 @@
+﻿ 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="css/details.css" />
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        //$(function(){
+        //	$("#details").click(function(){
+        //		$('#service').removeClass("seltitle");
+        //		$('#details').addClass("seltitle");
+        //		$(".details").show();
+        //		$(".service").hide();
+        //	});
+        //    $("#service").click(function() {
+        //        $('#details').removeClass("seltitle");
+        //        $('#service').addClass("seltitle");
+        //        $(".details").hide();
+        //        $(".service").show();
+        //    });
+
+        //})
+
+        function _showTab(tab) {
+            if (tab == 1) {
+                $('#service').removeClass("seltitle");
+                $('#details').addClass("seltitle");
+                $(".details").show();
+                $(".service").hide();
+            }
+            else {
+                $('#details').removeClass("seltitle");
+                $('#service').addClass("seltitle");
+                $(".details").hide();
+                $(".service").show();
+            }
+
+            window.location.href = "hm://call";
+        }
+        function showtype2() {
+            $('.type1,.type2').hide();
+            $(".type2").show();
+        }
+    function showtype1() {
+        $('.type1,.type2').hide();
+        $(".type1").show();
+    }
+    </script>
+    <title></title>
+</head>
+<body>
+    <div id="container">
+    <div class="model_Forcast">
+        <div class="btntitle">
+            <div id="details" onclick="javascript:_showTab(1)" class="seltitle">{{ Name }} </div>
+            <div id="service" onclick="javascript:_showTab(2)">服务承诺</div>
+        </div>
+        <div class="details">
+            <table>
+                <tr>
+                    <td>产品描述</td>
+                    <td>{{ FullName }}</td>
+                </tr>
+                <tr>
+                    <td>方案类别</td>
+                    <td>{{ Name }}</td>
+                </tr>
+                <tr>
+                    <td>质量说明</td>
+                    <td>{{Standard}}</td>
+                </tr>
+                <tr>
+                    <td>完成时间</td>
+                    <td>{{ Remark }}</td>
+                </tr>
+                <tr>
+                    <td>编制价格</td>
+                    <td> <span style="color: #FF7B23;font-weight: 700">{{PerPrice}}</span></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>咨询电话</td>
+                    <td>{{ Phone }}</td>
+                </tr>
+                <tr>
+                    <td>QQ</td>
+                    <td>{{ QQ }}</td>
+                </tr>
+                <tr>
+                    <td>微信</td>
+                    <td>{{ WeChat }}</td>
+                </tr>
+            </table>
+            <!--
+            交易流程
+            -->
+            <table class="Process">
+                <thead>
+                    <tr>
+                        <td colspan="2">
+                            交易流程
+                        </td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>
+                        <img src="img/jy1@2x.png" />
+                    </td>
+                    <td>
+                        <div class="Content">
+                            <h4>下单</h4>
+                            <p>买家下单后,自由找客服会在半个小时内与买家联系。</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/jy2@2x.png" /></td>
+                    <td>
+                        <div class="Content">
+                            <h4>需求</h4>
+                            <p>如果需要,自由找客服会联系买家以获得招标文件等相关资料。</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/jy3@2x.png" /></td>
+                    <td>
+                        <div class="Content">
+                            <h4>提交</h4>
+                            <p>自由找客服会在交稿截止时间前两天通过网络提交审核稿给买家。</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/jy4@2x.png" /></td>
+                    <td>
+                        <div class="Content">
+                            <h4>修改</h4>
+                            <p>买家审核通过或提出修改意见。</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/jy5@2x.png" /> </td>
+                    <td>
+                        <div class="Content">
+                            <h4>通过</h4>
+                            <p>买家通过审核后,自由找客服将通过网络把源文件发送给买家。</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table class="standard">
+                <thead>
+                    <tr>
+                        <td colspan="2">
+                            退款标准
+                        </td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td colspan="2">
+                        <p>1.经修改后依然未达到招标文件对格式以及内容的要求。</p>
+                        <p>2.未在规定时间内提交审核稿给买家审核。</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="service" style="display: none;">
+            <!--
+            服务承诺
+            -->
+            <table class="Process ">
+                <thead>
+                    <tr>
+                        <td colspan="2">
+                            服务承诺
+                        </td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>
+                        <img src="img/fw1@2x.png" />
+                    </td>
+                    <td>
+                        <div class="Content">
+                            <h4>专业团队</h4>
+                            <p>自由找保证提供服务的人员是相关专业的有经验的专业人员</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/fw2@2x.png" /></td>
+                    <td>
+                        <div class="Content">
+                            <h4>时间保障</h4>
+                            <p>自由找保证按规定时间提交审核稿</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/fw3@2x.png" /></td>
+                    <td>
+                        <div class="Content">
+                            <h4>包你满意</h4>
+                            <p>自由找保证修改到买家满意为止</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/fw4@2x.png" /></td>
+                    <td>
+                        <div class="Content">
+                            <h4>全额退款</h4>
+                            <p>没达到以上服务承诺，我们双倍退还买家支付的金额。</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/fw5@2x.png" /> </td>
+                    <td>
+                        <div class="Content">
+                            <h4>安全保密</h4>
+                            <p>为用户保守商业机密</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/fw6@2x.png" /> </td>
+                    <td>
+                        <div class="Content">
+                            <h4>保证原创</h4>
+                            <p>保证提供的资料完全针对你的投标项目且具有唯一性</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table class="standard">
+                <thead>
+                    <tr>
+                        <th colspan="2" class="notunderline">
+                            <h4>技术质量标准</h4>
+                            <h5>质量主要以招标文件的总体要求为标准，着重满足以下要求：</h5>
+                        </th>
+                    </tr>
+
+                </thead>
+
+                <tr>
+                    <td colspan="2" class="counter">
+                        <p>满足招标文件规定的评审标准；</p>
+
+                        <!--@if (Model.Type == 2)
+                        {-->
+                        <p class="type2"  style="display:none" >满足招标文件及清单内容的组成要求；</p><!----预算>-->
+                        <p class="type2" style="display:none">满足招标文件及商务标的格式要求。</p>
+                        <!--  -->
+                        
+                        <p class="type1">满足招标文件规定的技术部分的内容组成要求；</p>
+                        <p class="type1">满足招标文件对技术标的格式要求。</p>
+                        <!--}-->
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    </div>
+</body>
+</html>
